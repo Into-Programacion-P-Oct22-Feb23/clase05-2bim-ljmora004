@@ -11,17 +11,17 @@ public class Ejemplo06 {
         int[] valor1 = {100, 1000, 200, 2000, 3000};
         int[] valor2 = {1, 2, 3, 4, 5};
         
-        for(int i = 0; i < valor1.length; i++){
+        /* for(int i = 0; i < valor1.length; i++){
             System.out.printf("El valor es: %d\n", obtenerSuma(valor1[i], 
                     valor2[i]));
-        }
+        } */
         
-        for(int i = 0; i < valor1.length; i++){
+        /* for(int i = 0; i < valor1.length; i++){
             int num1 = valor1[i];
             int num2 = valor1[i];
             System.out.printf("El valor es: %d\n", obtenerSuma(num1, 
                     num2));
-        }
+        } */
         
         for(int i = 0; i < valor1.length; i++){
             int num1 = valor1[i];

@@ -9,6 +9,14 @@ public class Ejemplo07 {
     public static void main(String[] args) {
         int[] valores = {2,3,4,5,6,7,8};
         int[] potencias = {2, 3};
+        
+        for(int i = 0; i < valores.length; i++){
+            System.out.printf("%d elevado a la potencia %d = %d\n"
+                    + "%d elevado a la potencia %d = %d\n", valores[i], 
+                    potencias[0], obtenerPotencia(valores[i], potencias[0]), 
+                    valores[i], potencias[1], obtenerPotencia(valores[i], 
+                            potencias[1]));
+        }
         // Por cada posición del arreglo valores
         // obtener su potencia, en función de los valores
         // del arreglo potencias
